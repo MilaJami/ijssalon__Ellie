@@ -14,8 +14,5 @@ for i in range(len(smaken_ijs)):
         reclame_tekst4 = list = "" + reclame_tekst3 + "!"
         for el in reclame_tekst4:
             print(el)
-
-
-
-    # reclame_tekst4 = (reclame_tekst3.lower() + reclame_tekst[index_nul:])
-    # print(reclame_tekst4)
+        reclame_tekst4 = (reclame_tekst3.lower() + reclame_tekst[index_nul:])
+        print(reclame_tekst4)
