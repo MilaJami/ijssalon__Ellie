@@ -11,4 +11,6 @@ for i in range(len(smaken_ijs)):
         index_nul = reclame_tekst.find('0', punt_index)
         reclame_tekst2 = reclame_tekst[:punt_index]
         reclame_tekst3 = (reclame_tekst2.swapcase() + reclame_tekst[index_nul:])
-        print (reclame_tekst3)
+        reclame_tekst4 = mijn_string = "" + reclame_tekst3 + "!"
+        for l in mijn_string:
+            print (l)
