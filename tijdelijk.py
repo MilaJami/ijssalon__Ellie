@@ -12,5 +12,5 @@ for i in range(len(smaken_ijs)):
         reclame_tekst2 = reclame_tekst[:punt_index]
         reclame_tekst3 = (reclame_tekst2.swapcase() + reclame_tekst[index_nul:])
         reclame_tekst4 = mijn_string = "" + reclame_tekst3 + "!"
-        for l in mijn_string:
-            print (l)
+        for el in mijn_string:
+            print(el)
