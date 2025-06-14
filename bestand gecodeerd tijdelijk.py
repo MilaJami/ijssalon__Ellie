@@ -1,3 +1,7 @@
-# variablen
 Naam_bestand = '"bestand tijdelijk.py gecodeerd"'
-print(Naam_bestand)
+woorden = Naam_bestand.split()
+for el in woorden:
+    if len(el) > 8:
+        print (el.upper())
+    else:
+        print(el.lower())
