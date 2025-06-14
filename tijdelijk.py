@@ -15,4 +15,9 @@ for i in range(len(smaken_ijs)):
         for el in reclame_tekst4:
             print(el)
         reclame_tekst4 = (reclame_tekst3.lower() + reclame_tekst[index_nul:])
-        print(reclame_tekst4)
+        woorden = reclame_tekst4.split()
+        for el in woorden:
+            if len(el) > 5:
+                print (el.upper())
+            else:
+                print(el.lower())
